@@ -6,24 +6,10 @@ Ce document contient tous les scénarios, structurés pour créer des diagrammes
 
 ## Vue d'ensemble
 
-### Types de Tests
-
-- **Scénarios Fonctionnels Complets** : Scénarios end-to-end pour chaque entité (CRUD complet)
-- **Tests Unitaires** : Tests isolés des services, contrôleurs et composants de sécurité
-- **Tests de Contrôleurs** : Tests des endpoints REST avec MockMvc
-
 ### Diagrammes de Séquence
 
 - **Boîte Noire** : Vue externe (Client ↔ API)
 - **Boîte Blanche** : Vue interne (Client → Controller → Service → Repository → Database)
-
-### Outils Utilisés
-
-- **JUnit 5** : Framework de test
-- **Mockito** : Framework de mocking
-- **Spring Boot Test** : Support de test Spring
-- **H2 Database** : Base de données en mémoire pour les tests
-- **Jira/Xray** : Gestion des tests et traçabilité
 
 ---
 
